@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #004080, #001a66); /* FC Barcelona blue gradient */
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to bottom, #a50044, #80002a); /* FC Barcelona red gradient */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+#right-menu {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #a50044, #80002a); /* FC Barcelona red gradient */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+#right-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#right-menu ul li {
+    margin-bottom: 15px;
+    display: block;
+}
+
+#right-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #a50044; /* FC Barcelona red */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow to buttons */
+}
+
+#right-menu ul li a:hover {
+    color: #ffcc00;
+}
+
+#main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+#main-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #a50044; /* FC Barcelona red */
+    background: linear-gradient(to bottom, #004080, #001a66); /* FC Barcelona blue gradient */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    display: inline-block;
+    width: 70%;
+}
+
+#main-content h2 {
+    color: #a50044; /* FC Barcelona red */
+}
+
+#main-content ul {
+    list-style-type: None;
+    margin-left: 20px;
+    border: 2px solid red;
+    padding: 10px; /* Add padding for a visually pleasing look */
+    border-radius: 10px; /* Add border-radius for a rounded look */
+    width: 300px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+}
+
+#video-section {
+    margin-left: 35%;
+}
